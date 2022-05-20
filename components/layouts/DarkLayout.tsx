@@ -1,4 +1,9 @@
-const DarkLayout = ({ children }) => {
+import React, { FC } from "react";
+import { Props } from "../../types";
+
+ 
+
+const DarkLayout: FC<Props> = ({ children }) => {
   return (
     <>
       <div
